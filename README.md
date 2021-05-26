@@ -6,13 +6,13 @@ Efter genomförd kurs ska den studerande kunna:
 
 ### Kunskaper
 
-3.Redogöra för CI/CD
+3. Redogöra för CI/CD
 
 ### Färdigheter
 
-4.Använda processer och metoder för tillämpning av Continuous Integration
-5.Tillämpa test för att kvalitetssäkra koder
-6.Använda automationsramverk på ett produktivt sätt
+4. Använda processer och metoder för tillämpning av Continuous Integration
+5. Tillämpa test för att kvalitetssäkra koder
+6. Använda automationsramverk på ett produktivt sätt
 
 ### Introduktion
 
