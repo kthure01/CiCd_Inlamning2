@@ -1,4 +1,3 @@
-
 # Importerar funktionerna för kalkylatorn
 import calculator
 
@@ -31,3 +30,11 @@ def test_divide_method():
     assert 2 == calculator.divide(2, 1)
     assert 0 == calculator.divide(2, 0)
     assert 5 == calculator.divide(20, 4)
+
+
+# Denna metod kontrollerar att powermetoden fungerar som den ska.
+def test_power_method():
+    assert 4 == calculator.power(2, 2)
+    assert 256 == calculator.power(2, 8)
+    assert 27 == calculator.power(3, 3)
+    assert 2 == calculator.power(2, 1)
