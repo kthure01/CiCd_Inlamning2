@@ -1,10 +1,7 @@
-# Rapport på inlämningsuppgift 1 i Ci/Cd
+# Rapport på inlämningsuppgift 2 i Ci/Cd
 
 Jag börjar med att skapa upp ett nytt publikt repo på GitHub som jag döper till
-[**CiCd_Inlamning2**](https://github.com/kthure01/CiCd_Inlamning2). Under
-[settings/notifications,](https://github.com/kthure01/CiCd_Inlamning2/settings/notifications),
-så lägger jag in min epost-adress så att jag blir notifierad varje gång det görs en ”push”
-till detta repo.
+[**CiCd_Inlamning2**](https://github.com/kthure01/CiCd_Inlamning2.git).
 
 Repot klonar jag sedan ner på min Linux-maskin med:
 
@@ -22,7 +19,7 @@ kunna köras och testas på ett korrekt sätt.
 
 Nu gör en första synkning mot GitHub med:
 >git add --all\
->git commit -m “First commit”\
+>git commit -m “SOME_DESCRIPTION_MESSAGE”\
 >git push --set-upstream origin dev
 
 I denna inlämningsuppgift har jag byggt in ett enkelt gränssnitt som frågar efter
@@ -52,8 +49,6 @@ För att detta ska triggas igång så måste man ha gjort en manuell pull reques
 Vidare så för att testerna ska köras så måste build-jobbet ha gått igenom felfritt annars så kommer
 inte testerna att köras.
 Testerna som körs är en kontroll av kodstandarden och en test där 2 funktioner i appen kontrolleras.
-
-
 
 Det som saknas för att uppnå CD skulle väl vara att ha automatiskt skapa pull requests och att få 
 ett automatiskt godkännande av dessa så att koden automatiskt mergas in till main branchen. 

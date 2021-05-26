@@ -1,4 +1,6 @@
 # Importerar funktionerna för kalkylatorn
+from io import StringIO
+
 import calculator
 
 
