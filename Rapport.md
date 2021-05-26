@@ -50,5 +50,8 @@ Vidare så för att testerna ska köras så måste build-jobbet ha gått igenom 
 inte testerna att köras.
 Testerna som körs är en kontroll av kodstandarden och en test där 2 funktioner i appen kontrolleras.
 
+Det man ibland kan råka ut för är att man glömt kolla koden med flake8 eller missat att köra
+någon test.
+
 Det som saknas för att uppnå CD skulle väl vara att ha automatiskt skapa pull requests och att få 
 ett automatiskt godkännande av dessa så att koden automatiskt mergas in till main branchen. 
