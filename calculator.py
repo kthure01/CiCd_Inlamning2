@@ -26,8 +26,11 @@ def run_calc():
             num1 = int(input("Enter first number: "))
             num2 = int(input("Enter second number: "))
             operator = input("Enter operator [+,-,*,/]: ")
-        except:
+        except KeyboardInterrupt:
             print('An exception occurred\n\n')
+            break
+        except ValueError:
+            print('Invalid input\n\n')
             continue
 
         if operator == "+":
