@@ -1,6 +1,4 @@
 # Importerar funktionerna för kalkylatorn
-from io import StringIO
-
 import calculator
 
 
@@ -30,7 +28,7 @@ def test_multiply_method():
 # Denna metod kontrollerar att divisionsmetoden fungerar som den ska.
 def test_divide_method():
     assert 2 == calculator.divide(2, 1)
-    assert 0 == calculator.divide(2, 0)
+    assert "invalid" == calculator.divide(2, 0)
     assert 5 == calculator.divide(20, 4)
 
 
