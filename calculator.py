@@ -2,9 +2,6 @@
 # kunna visa en implementation av ett testförfarande
 #
 
-import math
-
-
 def addition(x, y):
     return x + y
 
@@ -23,8 +20,9 @@ def divide(x, y):
 
     return x / y
 
+
 def power(x, y):
-    return pow(x,y)
+    return pow(x, y)
 
 
 def run_calc():
