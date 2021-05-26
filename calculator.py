@@ -1,6 +1,7 @@
 # Detta är en enkel app med några funktioner för att
 # kunna visa en implementation av ett testförfarande
 #
+
 def addition(x, y):
     return x + y
 
@@ -20,12 +21,16 @@ def divide(x, y):
     return x / y
 
 
+def power(x, y):
+    return pow(x, y)
+
+
 def run_calc():
     while True:
         try:
             num1 = int(input("Enter first number: "))
             num2 = int(input("Enter second number: "))
-            operator = input("Enter operator [+,-,*,/]: ")
+            operator = input("Enter operator [+,-,*,/,**]: ")
         except KeyboardInterrupt:
             print('An exception occurred\n\n')
             break
@@ -41,6 +46,8 @@ def run_calc():
             print(num1, operator, num2, " = ", multiply(num1, num2))
         elif operator == "/":
             print(num1, operator, num2, " = ", divide(num1, num2))
+        elif operator == "**":
+            print(num1, operator, num2, " = ", power(num1, num2))
         else:
             print("Wrong operator\n\n")
 
